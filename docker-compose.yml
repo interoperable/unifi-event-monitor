@@ -3,7 +3,7 @@ version: "3.8"
 services:
   unifi-event-monitor:
     container_name: unifi-event-monitor
-    image: tborychowski/unifi-event-monitor:1.1.0
+    image: interoperable/unifi-event-monitor:1.1.0
     restart: unless-stopped
     env_file:
       - ./.env
